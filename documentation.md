@@ -236,8 +236,6 @@ It should also be noted that miners may not personally have the interests of the
 
 This may even lead to situations where miners act against the development of the network, favoring short-term rewards over long-term growth. In a severe case where miners refused to upgrade to the newest version of Bitcoin, other validation nodes were forced to start rejecting their new blocks; this caused miners that refused to upgrade to lose block rewards. Validators across the network held miners hostage financially, forcing them into a situation where they had to upgrade in order to continue earning money to pay for their mining operations.
 
-This ability creates a sort of separation of powers where block validators on the network can force miners to upgrade the blockchain to a new version by rejecting their blocks and not providing them compensation. A better model however would be if the interests of both users and miners were aligned so that many of the toxic community disagreements between different factions were reduced, however a model like this is impossible with proof-of-work.
-
 This ability creates a separation of powers where block validators on the network can force miners to upgrade the blockchain to a new version by rejecting their blocks and not providing them compensation. A much better model however would be where the interests of both users and miners were aligned so that many of the toxic community disagreements between different factions were eliminated. A model like this, however, is impossible with proof-of-work; only proof-of-stake which Peercoin operates on.
 
 ---
@@ -408,7 +406,7 @@ In Peercoin, the process of validating new transactions and blocks works quite d
 
 Coin age is a number that is derived from multiplying the amount of coins a minter owns by the number of days those coins have been held in their wallet. A minter who has a high coin age for example has both a high number of coins in their wallet and those coins have also been sitting in that wallet for quite a long period of time.
 
-Peercoin’s protocol combines some amount of randomization with coin age in order to automatically select the next person who mints a block. A minter with a highn coin age has a higher probability of minting the next block over a minter with a low coin age. There are no computationally difficult problems for minters to solve in Peercoin’s protocol. A minter’s chances of being selected as the next block producer rely specifically on the number of coins held and time in the form of coin age and some amount of luck.
+Peercoin’s protocol combines some amount of randomization with coin age in order to automatically select the next person who mints a block. A minter with a high coin age has a higher probability of minting the next block over a minter with a low coin age. There are no computationally difficult problems for minters to solve in Peercoin’s protocol. A minter’s chances of being selected as the next block producer rely specifically on the number of coins held and time in the form of coin age and some amount of luck.
 
 ## Time Based Rules & Restrictions
 
